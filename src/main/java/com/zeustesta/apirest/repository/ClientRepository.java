@@ -10,7 +10,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.zeustesta.apirest.model.Client;
+import com.zeustesta.apirest.entity.Client;
 
 
 @Repository

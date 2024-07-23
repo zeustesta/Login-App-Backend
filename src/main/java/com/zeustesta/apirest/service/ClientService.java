@@ -9,8 +9,8 @@ import org.springframework.stereotype.Service;
 import com.zeustesta.apirest.client.ClientRequest;
 import com.zeustesta.apirest.client.ClientResponse;
 import com.zeustesta.apirest.dto.ClientDTO;
-import com.zeustesta.apirest.model.Client;
-import com.zeustesta.apirest.model.Role;
+import com.zeustesta.apirest.entity.Client;
+import com.zeustesta.apirest.entity.Role;
 import com.zeustesta.apirest.repository.ClientRepository;
 
 import jakarta.transaction.Transactional;

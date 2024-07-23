@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.zeustesta</groupId>
-	<artifactId>apirest</artifactId>
+	<artifactId>Login-App-Backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>apirest</name>
 	<description>Demo project for Spring Boot</description>

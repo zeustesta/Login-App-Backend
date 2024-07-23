@@ -1,4 +1,4 @@
-package com.zeustesta.apirest.model;
+package com.zeustesta.apirest.entity;
 
 public enum Role {
   ADMIN,

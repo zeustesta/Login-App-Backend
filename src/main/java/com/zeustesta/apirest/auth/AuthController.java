@@ -1,13 +1,7 @@
-package com.zeustesta.apirest.controller;
+package com.zeustesta.apirest.auth;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.zeustesta.apirest.auth.LoginRequest;
-import com.zeustesta.apirest.auth.LoginResponse;
-import com.zeustesta.apirest.auth.RegisterRequest;
-import com.zeustesta.apirest.auth.RegisterResponse;
-import com.zeustesta.apirest.service.AuthService;
 
 import lombok.RequiredArgsConstructor;
 
@@ -20,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 @RestController
 @RequestMapping("/auth")
 @RequiredArgsConstructor
-@CrossOrigin(origins = {"http://localhost:4200"})
 public class AuthController {
 
   private final AuthService authService;

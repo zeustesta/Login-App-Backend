@@ -1,4 +1,4 @@
-package com.zeustesta.apirest.ExceptionHandler;
+package com.zeustesta.apirest.exceptionHandler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
